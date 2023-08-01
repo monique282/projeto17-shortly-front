@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Pages/Login.jsx"
 import Register from "./Pages/Register.jsx";
 import Home from "./Pages/Home.jsx";
-import Today from "./Pages/Today.jsx";
+import Ranking from "./Pages/Ranking.jsx";
 
 
 export default function App() {
@@ -12,9 +12,9 @@ export default function App() {
       {/* <AuthProvider> */}
         <Routes>
         <Route path='/' element={<Home />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/register' element={<Register />} />
-          <Route path='/today' element={<Today />} />
+          <Route path='/signin' element={<Login />} />
+          <Route path='/signup' element={<Register />} />
+          <Route path='/ranking' element={<Ranking/>} />
         </Routes>
       {/* </AuthProvider> */}
     </BrowserRouter>

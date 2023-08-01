@@ -34,7 +34,7 @@ export default function Home() {
         };
         const promise = axios.post(url, dados)
         setDisabled(true);
-        promise.then(resposta => navigate('/'));
+        promise.then(resposta => navigate('/signin'));
         promise.catch(resposta => {
             alert(resposta.response.data.message);
             setDisabled(false);

@@ -4,7 +4,7 @@ import trophy from "../assets/trophy.svg";
 import rank from "../assets/rank.svg";
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function HomeLogeed() {
     return (
         <Total>
             <RegisteLogin>

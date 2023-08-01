@@ -6,7 +6,7 @@ import { useContext, useState } from "react";
 import axios from "axios";
 //import { AuthContext } from "./Contex";
 
-export default function Home() {
+export default function Registe() {
 
     const [nome, setNome] = useState('');
     const [disabled, setDisabled] = useState(false);
